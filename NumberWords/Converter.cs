@@ -374,7 +374,7 @@ namespace NumberWords
             switch (letterCasing)
             {
                 case 1:
-                    return Capitalize(output, 2);
+                    return Capitalize(output.ToLower(), 2);
                 case 3:
                     return output.ToUpper();
                 default:
