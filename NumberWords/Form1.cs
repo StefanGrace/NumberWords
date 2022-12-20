@@ -22,7 +22,7 @@ namespace NumberWords
             // Load grammer settings from file
             try
             {
-                string[] lines = System.IO.File.ReadAllLines("GrammerSettings.txt");
+                string[] lines = System.IO.File.ReadAllLines("GrammarSettings.txt");
                 converter.SetVariables(int.Parse(lines[0]), bool.Parse(lines[1]), bool.Parse(lines[2]), bool.Parse(lines[3]), bool.Parse(lines[4]), bool.Parse(lines[5]));
             }
             catch
@@ -324,7 +324,7 @@ namespace NumberWords
             string[] lines = { gf.LetterCasing.ToString(), gf.IncludeAnd.ToString(), gf.Commas.ToString(), gf.ZeroBeforePoint.ToString(), gf.NegativeMinus.ToString(), gf.ShortHand.ToString() };
             try
             {
-                System.IO.File.WriteAllLines("GrammerSettings.txt", lines);
+                System.IO.File.WriteAllLines("GrammarSettings.txt", lines);
             }
             catch
             {

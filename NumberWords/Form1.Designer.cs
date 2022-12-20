@@ -43,7 +43,7 @@
             this.SingleOutputTextBox = new System.Windows.Forms.TextBox();
             this.SaveOutputButton = new System.Windows.Forms.Button();
             this.GenerateButton = new System.Windows.Forms.Button();
-            this.GrammerBbutton = new System.Windows.Forms.Button();
+            this.GrammarButton = new System.Windows.Forms.Button();
             this.OutputLabel = new System.Windows.Forms.Label();
             this.OutputRichTextBox = new System.Windows.Forms.RichTextBox();
             this.OutputLabel1 = new System.Windows.Forms.Label();
@@ -204,15 +204,15 @@
             this.GenerateButton.UseVisualStyleBackColor = true;
             this.GenerateButton.Click += new System.EventHandler(this.GenerateButton_Click);
             // 
-            // GrammerBbutton
+            // GrammarButton
             // 
-            this.GrammerBbutton.Location = new System.Drawing.Point(295, 210);
-            this.GrammerBbutton.Name = "GrammerBbutton";
-            this.GrammerBbutton.Size = new System.Drawing.Size(75, 23);
-            this.GrammerBbutton.TabIndex = 11;
-            this.GrammerBbutton.Text = "Grammer...";
-            this.GrammerBbutton.UseVisualStyleBackColor = true;
-            this.GrammerBbutton.Click += new System.EventHandler(this.GrammerBbutton_Click);
+            this.GrammarButton.Location = new System.Drawing.Point(295, 210);
+            this.GrammarButton.Name = "GrammarButton";
+            this.GrammarButton.Size = new System.Drawing.Size(75, 23);
+            this.GrammarButton.TabIndex = 11;
+            this.GrammarButton.Text = "Grammar...";
+            this.GrammarButton.UseVisualStyleBackColor = true;
+            this.GrammarButton.Click += new System.EventHandler(this.GrammerBbutton_Click);
             // 
             // OutputLabel
             // 
@@ -251,7 +251,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(924, 341);
             this.Controls.Add(this.OutputRichTextBox);
-            this.Controls.Add(this.GrammerBbutton);
+            this.Controls.Add(this.GrammarButton);
             this.Controls.Add(this.GenerateButton);
             this.Controls.Add(this.SaveOutputButton);
             this.Controls.Add(this.SingleOutputTextBox);
@@ -295,7 +295,7 @@
         private System.Windows.Forms.TextBox SingleOutputTextBox;
         private System.Windows.Forms.Button SaveOutputButton;
         private System.Windows.Forms.Button GenerateButton;
-        private System.Windows.Forms.Button GrammerBbutton;
+        private System.Windows.Forms.Button GrammarButton;
         private System.Windows.Forms.Label OutputLabel;
         private System.Windows.Forms.RichTextBox OutputRichTextBox;
         private System.Windows.Forms.Label OutputLabel1;

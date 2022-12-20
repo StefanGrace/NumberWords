@@ -106,12 +106,11 @@
             this.CancelButton.Name = "CancelButton";
             this.CancelButton.UseVisualStyleBackColor = true;
             // 
-            // GrammerForm
+            // GrammarForm
             // 
             this.AcceptButton = this.OkButton;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.CancelButton;
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.OkButton);
             this.Controls.Add(this.LetterCasingComboBox);
@@ -122,7 +121,7 @@
             this.Controls.Add(this.NegitiaveMinusCheckBox);
             this.Controls.Add(this.IncludeAndCheckBox);
             this.MaximizeBox = false;
-            this.Name = "GrammerForm";
+            this.Name = "GrammarForm";
             this.Load += new System.EventHandler(this.GrammerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
